@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+@media only screen and (max-device-width: 900px) {
+
+    }
+@media only screen and (max-device-width: 700px) {
+       
+    }
+
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    align-items: center;
+    padding:12px;
+    padding-left: 600px;
+    background-color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 10;
+
+}
+
+
+.botao1{
+    padding:13px 35px;
+    border-radius: 25px 25px;
+    background: #2ca438;
+    border:none;
+    transition: 0.5s;
+    
+}
+
+.botao1:hover{
+    background-color: #000f36;
+}
+
+
+/*Workout*/
+
+.sec1{
+    background-color: #efefef;
+    padding:1px;
+    padding-right: 0px;
+    padding-top: 100px;
+}
+
+
+#workout{
+    font-weight: bolder;
+    font-size: 80px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+}
+
+#p1{
+    font-size: 23px;
+}
+
+/*Training*/
+
+.sec2 {
+    background-color: #efefef;
+    padding: 1px;
+    padding-right: 0px;
+}
+
+#trainig{
+    
+    font-weight: bolder;
+    padding-top: 60px;
+    font-size: 80px;
+    padding-left: 80px;
+}
+#p2{
+    font-size: 27px;
+    padding-left:80px;
+    
+}
+
+.readmore{
+    padding-left:80px;
+    font-size: 25px;
+    color: #54aa5e;
+}
+
+/*trainingstr*/
+
+.sec3 {
+    background-color: #efefef;
+    padding-left: 10px;
+    padding-right: 00px;
+}
+
+#trainigstr{
+    font-weight: bolder;
+    font-size: 90px;
+    padding-left: 15px;
+    
+}
+
+#p3 {
+    padding-left: 15px;
+    font-size: 27px;
+}
+
+
+
+/*Botão*/
+
+.b1{
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease 0s;
+    background:#000f36;
+    color:#fff;
+    padding:45px
+    
+    
+}
+
+.b1:hover{
+    background: rgb(47, 124, 47);
+
+}
+
+/*About*/
+
+.sec4 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#h4 {
+    font-size: 60px;
+    color: #000f36;
+}
+
+.p4 { 
+    padding-right: 100px;
+    text-align: left;
+    font-size: 30px;
+    color: #000f36;
+}
+
+.hr{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/*Performance*/
+.sec5{
+    background-color: #efefef;
+    padding-left: 00px;
+    padding-right: 0px;
+}
+
+.img01 {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 0px;
+}
+
+#h5{
+    font-size:53px;
+    font-weight: bold;
+    padding-left:00px ;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+#p5d{
+    font-size:23px;
+    color:#54aa5e;
+    padding: 30px;
+    padding-right: 30px;
+}
+
+#p5{
+    font-size:23px;
+    padding-left:30px ;
+    padding-right: 10px;
+}
+
+.read{
+    font-size: 20px;
+    padding-left:30px ;
+    color:#54aa5e;
+    padding-bottom: 25px;
+
+}
+
+/*Força e Resistência*/
+
+.sec6 {
+    background-color: #efefef;
+}
+
+#resistência {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    color: #2ca438;
+}
+
+#p61 {
+    font-size: 27px;
+    text-align: center;
+    color: #54aa5e;
+}
+
+#p6{
+    font-size: 27px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.read2 {
+    font-size: 20px;
+    padding-left: 30px;
+    color: #54aa5e;
+}
+
+.img2 {
+    padding-left: 100px;
+    padding-right: 200px;
+    padding: 30px;
+}
+
+
+/*comece seu treino*/
+
+.sec7 {
+    background-color: #efefef;
+}
+
+#plan{
+    color: #000f36;
+    padding-right: 0px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*Planos*/
+
+.sec8 {
+    background-color: #efefef;
+}
+
+#hf {
+    color: #000f36;
+    font-weight: bold;
+}
+
+#pf {
+    font-weight: 600;
+    color: #000f36;
+}
+
+.sec9 {
+    background-color: #efefef;
+}
+
+.joinus {
+    color: #000f36;
+    padding-top: 150px;
+}
+
+.pfinal {
+    color: #2ca438;
+    font-size: 30px;
+}
+
+
+/*Rodape*/
+
+.mainfooter {
+    background-color: #000f36;
+}
+
+#finalp {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 110px;
+}
+
+.hr3 {
+    color: #fff;
+    font-size: 100px;
+}
+
+
+.nossas h1{
+    color: #efefef;
+}
+
+
+.links{
+    padding-top: 50px;
+    
+}
+
+.links a{
+    font-size: 60px;
+    text-decoration:none;
+    color: #efefef;
+    transition : color 0.4s ease-out;
+    text-align: center;
+}
+
+.links a:hover {
+    color: #000;
+}
+
+
+
+
